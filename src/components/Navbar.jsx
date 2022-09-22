@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import pastel from "../img/pastel.png";
 import { Link } from "react-router-dom";
 
-function App() {
+const NavBar = () => {
   return (
     <>
       <Navbar bg="danger" variant="danger">
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default NavBar;
